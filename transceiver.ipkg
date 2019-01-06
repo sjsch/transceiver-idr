@@ -1,0 +1,11 @@
+package transceiver
+
+sourcedir = src
+modules = Data.Functor.Contravariant
+	, Data.Functor.Exp
+	, Data.Functor.Product
+	, Data.Chain
+	, Control.Transceiver.Parser
+	, Control.Transceiver.Printer
+	, Control.Transceiver.Syntax
+	, Control.Transceiver.Syntax.Char
